@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 from datetime import datetime
 load_dotenv()
 
+# Get the directory where this particular script is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Creation of environment variables to protect sensitive data
 url = os.getenv("url")
@@ -38,5 +40,13 @@ except ValueError:
     exit(1)
 
 # Creating a storage folder in local machine
-today = datetime.now().strftime("%Y-%m-%d")
-folder_path = os.path.join
+today_date = datetime.now().strftime("%Y-%m-%d")  # Getting today's date
+folder_path = os.path.join(BASE_DIR, "raw_data") # File path creation
+os.makedirs(folder_path, exist_ok=True)
+
+# Creating the file path 
+file_path = f"{folder_path}/{today_date}.json"
+
+# Dumping into the filepath the API response
+with open(file_path, "w") as file:
+    json.dump(response.json(), file, indent=4)
