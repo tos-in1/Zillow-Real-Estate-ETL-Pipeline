@@ -1,4 +1,3 @@
-# TESTING CODES
 # ================================================================
 #                         DATA GENERATION 
 # =================================================================
@@ -18,6 +17,8 @@ API_KEY = os.getenv("API_KEY")
 API_HOST = os.getenv("API_HOST")
 
 # Calling API
+url = url
+
 querystring = {"location":"Houston, TX",
                "status":"forSale",
                "sort":"relevance",
