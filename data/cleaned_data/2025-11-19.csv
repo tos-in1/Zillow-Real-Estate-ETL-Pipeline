@@ -1,0 +1,26 @@
+property_id,home_address,state,city,zipcode,latitude,longitude,bedrooms,bathrooms,living_area,lot_size,year_built,property_type,price,price_sqft,status,days_on_zillow
+457154785,4122 Great Bear Pl,Texas,Houston,77084,29.833529,-95.69997,4,2.0,2611,7065.4,2019,Single Family,389010,149,Active,26
+28133604,15322 Torry Pines Rd,Texas,Houston,77062,29.575647,-95.13027,4,2.0,2015,9840.2,1970,Single Family,369000,183,Active,10
+249893553,2851 Decker Pl,Texas,Houston,77003,29.758352,-95.33921,3,4.0,2401,2134.4,2018,Single Family,499999,208,Active,5
+27784714,717 E 23rd St,Texas,Houston,77008,29.807554,-95.39053,3,3.0,1957,4678.3,1928,Single Family,789000,403,Active,13
+27968401,5711 Ridgeway Dr,Texas,Houston,77033,29.66928,-95.33654,4,1.0,1240,7204.8,1958,Single Family,159000,128,Active,3
+28159899,1815 Wagon Gap Trl,Texas,Houston,77090,30.01964,-95.46432,4,4.0,2919,8969.0,1975,Single Family,299900,103,Active,23
+80554166,12511 Silver Cup,Texas,Houston,77014,29.971582,-95.46673,3,3.0,2592,3362.8,2005,Single Family,199900,77,Active,47
+28168769,3818 Gladeridge Dr,Texas,Houston,77068,30.001553,-95.49348,4,3.0,3068,0.3,1972,Single Family,335000,109,Active,44
+28239285,3502 Stoney Oak Dr,Texas,Houston,77068,30.00861,-95.492325,4,3.0,2630,0.3,1977,Single Family,350000,133,Active,69
+28239125,15618 Banty Falls Ct,Texas,Houston,77068,30.012064,-95.48847,5,4.0,4441,10201.8,1981,Single Family,495000,111,Active,56
+452649960,6607 Apollo,Texas,Houston,77091,29.860098,-95.42857,4,3.0,1645,,2025,Single Family,228000,139,Active,154
+84030383,3102 Noble Lakes Ln,Texas,Houston,77082,29.726715,-95.58689,6,12.0,20932,0.7,2002,Single Family,9999999,478,Active,10
+28354296,2739 Blue Glen Ln,Texas,Houston,77073,30.009228,-95.38549,5,4.0,3560,8681.5,1982,Single Family,280000,79,Active,114
+28138042,1011 Manatee Ln,Texas,Houston,77090,30.021654,-95.44966,4,3.0,2904,10402.1,1969,Single Family,229500,79,Active,6
+27759692,823 W 21st St,Texas,Houston,77008,29.805044,-95.4134,4,5.0,3264,3275.7,2016,Single Family,795000,244,Active,19
+28315106,15430 El Padre Dr,Texas,Houston,77083,29.70579,-95.65936,4,3.0,2018,9199.9,1978,Single Family,329900,163,Active,11
+70347288,26036 Kings Mill Crest Dr,Texas,Kingwood,77339,30.064611,-95.22997,4,4.0,3121,7488.0,2005,Single Family,363275,116,Active,41
+28419100,3204 Ivy Falls Dr,Texas,Houston,77068,30.014277,-95.49081,5,5.0,6309,0.8,1982,Single Family,799000,127,Active,100
+454275513,7970 Fowlie St,Texas,Houston,77028,29.813654,-95.28199,3,3.0,1549,4199.2,2025,Single Family,228000,147,Active,130
+62567065,1322 Coppermeade Dr,Texas,Houston,77067,29.952232,-95.44035,5,3.0,3287,5776.1,2002,Single Family,296000,90,Active,39
+121104625,2206 Abernathy St,Texas,Houston,77026,29.782618,-95.32834,3,3.0,1536,2404.5,2022,Single Family,320000,208,Active,10
+28433805,3010 Cedar Woods Pl,Texas,Houston,77068,30.012966,-95.48639,6,6.0,5712,0.4,1984,Single Family,695000,122,Active,40
+28249156,15722 Falmouth Dr,Texas,Houston,77059,29.586512,-95.11628,4,3.0,3194,0.4,1979,Single Family,465000,146,Active,131
+84029002,107 Timberwilde Ln,Texas,Houston,77024,29.765787,-95.49279,8,13.0,22000,9.0,2005,Single Family,59999999,2727,Active,45
+28208218,5610 Easthampton Dr UNIT B,Texas,Houston,77039,29.900703,-95.30755,3,2.0,1516,1925.4,1979,Single Family,135000,89,Active,25
