@@ -1,5 +1,7 @@
 # TESTING CODES
-
+# ================================================================
+#                         DATA GENERATION 
+# =================================================================
 import requests
 import json
 import os
@@ -16,8 +18,6 @@ API_KEY = os.getenv("API_KEY")
 API_HOST = os.getenv("API_HOST")
 
 # Calling API
-url = url
-
 querystring = {"location":"Houston, TX",
                "status":"forSale",
                "sort":"relevance",
@@ -36,11 +36,16 @@ response = requests.get(url, headers=headers, params=querystring)
 # error handling using try and except
 try:
     data = response.json()
+    print("SUCCESS! - Data has been pulled from Zillow API")
 except ValueError:
     print("Error: non JSON received")
     print(response.text)
     exit(1)
 
+
+# ===================================================================
+#                           DATA STORAGE
+# ===================================================================
 # Creating a storage folder in local machine
 today_date = datetime.now().strftime("%Y-%m-%d")  # Getting today's date
 folder_path = os.path.join(BASE_DIR, "data", "raw_data") # File path creation
