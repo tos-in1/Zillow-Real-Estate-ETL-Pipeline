@@ -4,7 +4,7 @@ This project is a complete end-to-end data engineering pipeline designed to coll
 Due to API quota limits, this project uses only a single page of 25 records, making it impossible for daily automation; however, the pipeline is fully designed to handle larger datasets efficiently when more data is available.
 ## Architecture Diagram
 
-![Demo](assets/your-gif.gif)
+![Demo](assets/Architecture_flow.gif)
 
 ## Detailed Workflow
 - Extract Data
@@ -12,7 +12,7 @@ Due to API quota limits, this project uses only a single page of 25 records, mak
 	- The response is stored locally inside
     
 - Data Storage (Landing Zone)
-	- The raw JSON file is saved locally before any transformation.
+	- The raw JSON file is saved locally in [raw_data](data/raw_data/2025-11-18)before any transformation.
 	- This preserves the original data and mimics a typical cloud landing zone.
    
 - Data Transformation
