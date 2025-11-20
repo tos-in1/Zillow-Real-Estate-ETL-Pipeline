@@ -1,4 +1,8 @@
+# Environment variable file
 .env
+
+# Jupyter notebooks
+
 extract.ipynb
 load.ipynb
 transform.ipynb
