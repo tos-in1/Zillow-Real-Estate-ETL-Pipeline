@@ -6,7 +6,7 @@ Due to API quota limits, this project uses only a single page of 25 records, mak
 
 ### Architecture Diagram
 
-![Demo](assets/original.gif)
+![Demo](assets/new_original.gif)
 
 ### Detailed Workflow
 - Extract Data [extract_scripts](scripts/extract.py)
