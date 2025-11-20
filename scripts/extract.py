@@ -1,6 +1,26 @@
-# ================================================================
-#                         DATA GENERATION 
-# =================================================================
+"""
+REAL ESTATE DATA EXTRACTION AND STORAGE (Zillow API)
+
+This script retrieves real estate listing data for Houston, Texas using the Zillow API (via RapidAPI). 
+It serves as the data generation step in the pipeline by making an authenticated HTTP request and 
+saving the raw API response for downstream processing.
+
+The script performs the following tasks:
+
+1. Loads environment variables (API credentials) for secure authentication.
+2. Sends a GET request to the Zillow API with filters including:
+   - location: Houston, TX
+   - listing status: for sale
+   - listing type: agent
+   - sort order and price type
+3. Extracts and prints the JSON response upon a successful API call.
+4. Handles errors gracefully if a non-JSON response is returned.
+5. Stores the raw API response locally in a timestamped JSON file inside:
+      data/raw_data/YYYY-MM-DD.json
+
+"""
+
+#  importing the required variables
 import requests
 import json
 import os
