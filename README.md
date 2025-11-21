@@ -1,12 +1,14 @@
 # Zillow ETL Pipeline
-This project is a complete end-to-end data engineering pipeline designed to collect, clean, transform, and store real estate data from Zillow using a public API. The goal is to automate the daily extraction of agent-listed properties in Houston, Texas, enrich the data through cleaning and transformation, and load it into a structured database for future analytics, machine learning, or reporting. The project demonstrates how real-world pipelines work, from raw API data, through storage/landing, transformation, and finally into a reliable data storage system for downstream purposes.
+About 3 years ago, I briefly worked in real estate and spent a lot of time refreshing Zillow to find agent- and owner-listed properties for investors. The experience made one thing clear: the faster you access property data, the better your chances.
+
+This inspired me to build a complete end-to-end Data Engineering pipeline that automates the extraction of Zillow property listings, cleans and transforms the data, and loads it into PostgreSQL for structured analytics. The pipeline demonstrates the full flow of a real-world system: from raw API data, through a landing zone, transformation, and finally into a reliable database ready for downstream analysis, reporting, or machine learning.
 
 ### Limitation
 Due to API quota limits, this project uses only a single page of 25 records, making it impossible for daily automation; however, the pipeline is fully designed to handle larger datasets efficiently when more data is available.
 
 ### Architecture Diagram
 
-![Demo](assets/original.gif)
+![Demo](assets/new_original.gif)
 
 ### Detailed Workflow
 - Extract Data [extract_scripts](scripts/extract.py)
